@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SWquiz</string>
+    <string name="submit">Submit</string>
+    <string name="explanation">Star Wars Quiz!\nPlease select all the right answers and then press Submit button.\nTo reset the quiz press reset button.</string>
+    <string name="quiz_1_checkbox1">This is a picture of Yoda.</string>
+    <string name="quiz_1_checkbox2">This is a picture of Grogu.</string>
+    <string name="quiz_1_checkbox3">He is a Jedi Master.</string>
+    <string name="quiz_1_checkbox4">He is a young Padawan.</string>
+    <string name="reset">Reset</string>
+    <string name="pic1descr">Yoda</string>
+    <string name="pic2descr">vaider</string>
+    <string name="pic3descr">stormtrooper</string>
+    <string name="pic4descr">lightsabers</string>
+    <string name="q4">What is the colour emitted by the Sith lightsaber?</string>
+    <string name="quiz_3_checkbox4">He is fighting for the Republic.</string>
+    <string name="quiz_3_checkbox3">He is fighting for the Empire.</string>
+    <string name="quiz_3_checkbox2">This is a picture of a republic soldier.</string>
+    <string name="quiz_3_checkbox1">This is is a picture of a stormtrooper.</string>
+    <string name="quiz_2_radio_button2">This is Ben Kenobi.</string>
+    <string name="quiz_2_radio_button1">This is Darth Vaider.</string>
+
+</resources>

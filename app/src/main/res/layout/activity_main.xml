@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#757575">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/text_view_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/BodyText"
+            android:text="@string/explanation"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="24dp"/>
+
+
+        <ImageView
+            android:id="@+id/photo_image_quiz_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/pic1descr"
+            android:scaleType="fitStart"
+            android:src="@drawable/yoda"
+            android:adjustViewBounds="true"/>
+
+        <CheckBox
+            android:id="@+id/quiz_1_checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_1_checkbox1"
+            style="@style/BodyText"
+
+            android:layout_marginLeft="16dp"
+            />
+        <CheckBox android:id="@+id/quiz_1_checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_1_checkbox2"
+            style="@style/BodyText"
+            android:layout_marginLeft="16dp"
+
+            />
+        <CheckBox
+            android:id="@+id/quiz_1_checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_1_checkbox3"
+            style="@style/BodyText"
+            android:layout_marginLeft="16dp"
+
+            />
+        <CheckBox android:id="@+id/quiz_1_checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_1_checkbox4"
+            style="@style/BodyText"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="24dp"/>
+
+
+        <ImageView
+            android:id="@+id/photo_image_quiz_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/darth_vaider"
+            android:contentDescription="@string/pic2descr"
+            android:layout_margin="16dp"
+            android:adjustViewBounds="true"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/quiz_2_radio_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz_2_radio_button1"
+                style="@style/BodyText"
+                android:layout_marginLeft="16dp"
+
+                 />
+
+            <RadioButton
+                android:id="@+id/quiz_2_radio_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quiz_2_radio_button2"
+                style="@style/BodyText"
+                android:layout_marginLeft="16dp"
+
+                android:layout_marginBottom="24dp"
+                 />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/photo_image_quiz_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/stormtrooper"
+            android:contentDescription="@string/pic3descr"
+            android:adjustViewBounds="true"
+            android:layout_margin="16dp"/>
+
+        <CheckBox
+            android:id="@+id/quiz_3_checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_3_checkbox1"
+            style="@style/BodyText"
+
+            android:layout_marginLeft="16dp"
+            />
+        <CheckBox android:id="@+id/quiz_3_checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_3_checkbox2"
+            style="@style/BodyText"
+            android:layout_marginLeft="16dp"
+
+            />
+        <CheckBox
+            android:id="@+id/quiz_3_checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_3_checkbox3"
+            style="@style/BodyText"
+            android:layout_marginLeft="16dp"
+
+            />
+        <CheckBox android:id="@+id/quiz_3_checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz_3_checkbox4"
+            style="@style/BodyText"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="24dp"/>
+
+        <ImageView
+            android:id="@+id/photo_image_quiz_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitStart"
+            android:src="@drawable/lightsabers"
+            android:contentDescription="@string/pic4descr"
+            android:adjustViewBounds="true"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:id="@+id/text_view_id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q4"
+            android:layout_margin="16dp"
+            style="@style/BodyText"
+            android:layout_marginBottom="24dp"/>
+        <EditText
+            android:id="@+id/plain_text_input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="16dp"
+            android:inputType="text"
+            style="@style/BodyText"
+            android:textAllCaps="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:onClick="submit"
+            style="@style/ButtonText"
+            android:layout_marginTop="24dp"
+            android:layout_margin="16dp"/>
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:textColor="#D50000"
+            style="@style/ButtonText"
+            android:onClick="reset"
+            android:layout_margin="16dp"
+            />
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
